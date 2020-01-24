@@ -6,7 +6,7 @@ Edit the rf2mqtt.py script to replace/add each sensor entry:
      { "name":"button_01", "on_code":"ABCDEF", "off_code": None, "device_class": None },
 ```
  - "name" is your chosen name for the sensor.  It will appear as a binary_sensor with this name in home assistant automatically.
- - "on_code" is the code received to turn on the binary_sensor.  You will see these in your Tasmota console when you active your button/sensor in as something like :
+ - "on_code" is the code received to turn on the binary_sensor.  You will see these in your Tasmota console when you active your button/sensor.  It's what is listed under "Data" :
 ```
    00:42:33 MQT: tele/tasmota_rf_bridge/RESULT = {"Time":"2020-01-24T00:42:33","RfReceived":{"Sync":8830,"Low":290,"High":920,"Data":"ABCDEF","RfKey":"None"}}
 ```
