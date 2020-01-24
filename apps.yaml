@@ -1,0 +1,4 @@
+rf2mqtt:
+  class: rf2mqtt
+  module: rf2mqtt
+  
